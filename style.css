@@ -1,2 +1,21 @@
 body {
+    font-family: sans-serif;
+}
+
+#question-text {
+    width: 300px;
+}
+ul#questions {
+    list-style-type: none; }
+
+ul#questions li {
+    
+}
+
+.question {
+    
+}
+
+.date {
+    
 }

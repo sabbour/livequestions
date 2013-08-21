@@ -23,7 +23,8 @@ $(function () {
     function appendQuestionsToInterface(questions) {
         var listItems = $.map(questions, function (question) {
             return $('<li>')
-            .append($('<div>' + question.text + " asked at " + question.date + '</div>'));
+            .append($('<h3 class="question">' + question.text + '</h3>'))
+            .append($('<div class="date">' + question.date + '</div>'))
         });
 
         $('#questions').empty().append(listItems);
