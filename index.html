@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Live questions</title>
+    </head>
+    <body>
+        <div>
+            <h1>Welcome to the session!</h1>
+            <h2>Ask any question that you would like</h2>
+
+            <form id="add-question">
+                <div><input type="text" id="question-text" placeholder="Question" /></div>
+                <button type="submit">Send</button>
+            </form>
+
+            <ul id="questions">
+            </ul>
+        </div>
+        <!-- error log-->
+        <ul id="errorlog"></ul>
+
+        <script src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-2.0.3.js"></script>
+        <script src="https://sabbourchatroom.azure-mobile.net/client/MobileServices.Web-1.0.0.min.js"></script>
+        <script src="logic.js"></script>
+    </body>
+</html>
